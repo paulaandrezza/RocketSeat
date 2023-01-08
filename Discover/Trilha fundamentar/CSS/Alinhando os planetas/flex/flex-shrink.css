@@ -1,0 +1,19 @@
+.container {
+    border: 2px dashed red;
+    font-size: 30px;
+    display: flex;
+}
+
+.container div {
+    border: 1px solid;
+
+    flex-basis: 50%;
+}
+
+.container div:nth-child(2) {
+    flex-shrink: 3;
+}
+
+.container div:nth-child(3) {
+    flex-shrink: 2;
+}

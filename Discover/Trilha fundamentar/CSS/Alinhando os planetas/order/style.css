@@ -1,0 +1,25 @@
+.box {
+    border: 2px dashed red;
+    display: flex;
+    font-size: 30px;
+}
+
+.box div {
+    border: 1px solid;
+}
+
+.box div:nth-child(1) {
+    order: 1;
+}
+
+.box div:nth-child(2) {
+    order: 10;
+}
+
+.box div:nth-child(3) {
+    order: 0;
+}
+
+.box div:nth-child(4) {
+    order: -1;
+}

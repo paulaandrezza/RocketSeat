@@ -1,0 +1,21 @@
+.container {
+    border: 2px dashed red;
+
+    display: flex;
+
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh; */
+}
+
+.container div {
+    border: 1px solid;
+    font-size: 30px;
+
+    flex-basis: 25%;
+}
+
+.container div:nth-child(1) {
+    width: 250px;  /* Não funciona pois o flex-basis está tomando essa funcionalida */ 
+}

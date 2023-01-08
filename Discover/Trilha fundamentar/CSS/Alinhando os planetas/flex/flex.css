@@ -1,0 +1,33 @@
+.page {
+    font-size: 30px;
+    display: flex;
+    height: 90vh;
+}
+
+aside {
+    background-color: green;
+    flex: 1;
+}
+
+main {
+    background-color: blue;
+    flex: 2;
+
+    display: flex;
+    flex-direction: column;
+}
+
+main section:nth-child(1) {
+    background-color: aquamarine;
+    flex: 2;
+}
+
+main section:nth-child(2) {
+    background-color: orange;
+    flex: 0 400px;
+}
+
+main section:nth-child(3) {
+    background-color: pink;
+    flex: 1;
+}

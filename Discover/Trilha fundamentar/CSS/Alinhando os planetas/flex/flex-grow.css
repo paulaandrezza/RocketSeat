@@ -1,0 +1,19 @@
+.container {
+    border: 2px dashed red;
+    display: flex;
+}
+
+.container div {
+    border: 1px solid;
+    font-size: 30px;
+}
+
+.container div:nth-child(2),
+.container div:nth-child(3) {
+    flex-grow: 1;
+}
+
+.container div:nth-child(1) {
+    flex-grow: 3;
+}
+

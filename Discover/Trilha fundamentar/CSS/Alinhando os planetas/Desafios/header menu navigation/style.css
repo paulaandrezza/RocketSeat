@@ -1,0 +1,45 @@
+header {
+    padding: 1rem;
+}
+
+.window {
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px lightgray;
+}
+
+.header {
+    content: "";
+    background-color: lightgray;
+    height: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: .8rem;
+    align-items: center;
+}
+
+button {
+    background-color: blue;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    
+}
+
+button:hover {
+   scale: 1.02;
+   opacity: 0.5;
+}
